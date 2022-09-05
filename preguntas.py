@@ -12,6 +12,8 @@ Utilice el archivo `data.csv` para resolver las preguntas.
 
 """
 
+import csv
+
 def pregunta_01():
     sum=0
     with open('data.csv') as csv_file:
